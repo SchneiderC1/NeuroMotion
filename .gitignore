@@ -1,0 +1,19 @@
+# Raw PhysioNet dataset
+data/
+eegmmidb/
+*.edf
+*.edf.event
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
