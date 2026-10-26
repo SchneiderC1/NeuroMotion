@@ -1,0 +1,5 @@
+model,threshold,accepted_output_rate,no_command_rate,movement_commands,false_movement_on_true_rest_rate,wrong_movement_command_rate
+EEGNet unweighted (paired baseline),0.6,0.0,1.0,0,0.0,
+EEGNet unweighted (paired baseline),0.7,0.0,1.0,0,0.0,
+EEGNet class-weighted CE,0.6,0.0,1.0,0,0.0,
+EEGNet class-weighted CE,0.7,0.0,1.0,0,0.0,

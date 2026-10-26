@@ -1,0 +1,3 @@
+configuration,confidence_threshold,validation_windows,raw_accuracy,raw_macro_f1,accepted_output_rate,no_command_rate,movement_command_rate,false_movement_on_rest_rate,wrong_movement_command_rate,movement_commands,wrong_movement_commands
+EEGNet + confidence gate 0.60,0.6,30,0.5,0.2222222222222222,0.0,1.0,0.0,0.0,,0,0
+EEGNet + confidence gate 0.70,0.7,30,0.5,0.2222222222222222,0.0,1.0,0.0,0.0,,0,0

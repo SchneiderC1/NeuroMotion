@@ -1,7 +1,8 @@
-numpy
-pandas
-scipy
-matplotlib
-mne
-jupyter
-ipykernel
+# Recommended interpreter: Python 3.11
+braindecode==1.5.1
+mne>=1.10,<1.12
+numpy>=1.26,<2.4
+pandas>=2.2,<3.0
+scikit-learn>=1.5,<1.9
+ipykernel>=6.29
+jupyter>=1.0

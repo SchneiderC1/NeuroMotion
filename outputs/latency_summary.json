@@ -1,0 +1,9 @@
+{
+  "device": "cuda",
+  "unique_validation_windows": 30,
+  "warmup_calls": 10,
+  "timed_single_window_calls": 100,
+  "median_single_window_inference_ms": 0.8452500042039901,
+  "p95_single_window_inference_ms": 1.8077299930155266,
+  "measurement_note": "Warm-up excluded; CUDA synchronized around each measured call; repeats validation windows only for timing if fewer than 100 unique windows exist."
+}

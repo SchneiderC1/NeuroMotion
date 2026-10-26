@@ -1,0 +1,35 @@
+{
+  "experiment": "paired unweighted versus class-weighted cross-entropy",
+  "single_intended_change": "CrossEntropyLoss class weights inversely proportional to training class counts",
+  "class_names": [
+    "Rest",
+    "Left Hand",
+    "Right Hand"
+  ],
+  "class_weights_by_class": {
+    "Rest": 0.6666666666666666,
+    "Left Hand": 1.25,
+    "Right Hand": 1.4285714285714286
+  },
+  "training_run": [
+    "R04"
+  ],
+  "validation_run": [
+    "R08"
+  ],
+  "reserved_test_run_not_loaded": [
+    "R12"
+  ],
+  "seed": 42,
+  "configuration": {
+    "model": "Braindecode EEGNet",
+    "max_epochs": 10,
+    "batch_size": 8,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "random_seed": 42,
+    "confidence_threshold_initial": 0.6,
+    "confidence_threshold_revised": 0.7
+  },
+  "note": "Development comparison only. Do not use R12 until the model and gate are frozen."
+}
