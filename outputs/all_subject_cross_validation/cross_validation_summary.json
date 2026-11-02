@@ -1,0 +1,24 @@
+{
+  "experiment": "All-subject EEGNet \u2014 5-fold subject-independent CV",
+  "eligible_subjects": 106,
+  "excluded_subjects": 3,
+  "runs_permitted": [
+    "R04",
+    "R08",
+    "R12"
+  ],
+  "total_tested_epochs_out_of_fold": 9535,
+  "accuracy": 0.5466177241740955,
+  "balanced_accuracy": 0.44755640037507866,
+  "macro_f1": 0.4446665041878888,
+  "majority_baseline_oof_accuracy": 0.5000524383848978,
+  "mean_fold_accuracy": 0.5466749715357311,
+  "std_fold_accuracy": 0.009401366009314233,
+  "mean_fold_macro_f1": 0.44069685743773024,
+  "std_fold_macro_f1": 0.03170516058374548,
+  "epochs_per_subject": 10,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "seed_base": 42,
+  "device": "cuda"
+}

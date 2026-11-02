@@ -1,0 +1,18 @@
+{
+  "train_run_ids": [
+    "S001R04"
+  ],
+  "validation_run_ids": [
+    "S001R08"
+  ],
+  "test_run_ids_reserved": [
+    "S001R12"
+  ],
+  "train_validation_overlap": [],
+  "train_test_overlap": [],
+  "validation_test_overlap": [],
+  "run_group_zero_overlap": true,
+  "all_event_ids_unique": true,
+  "R12_used_for_model_selection_or_threshold_tuning": false,
+  "note": "R12 was loaded only for data-quality/label/lineage inspection in this cell. Do not score it until model and threshold are frozen."
+}

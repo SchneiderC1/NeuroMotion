@@ -1,0 +1,46 @@
+fold,true_class,predicted_class,count
+1,Rest,Rest,799
+1,Rest,Left Hand,102
+1,Rest,Right Hand,87
+1,Left Hand,Rest,312
+1,Left Hand,Left Hand,114
+1,Left Hand,Right Hand,74
+1,Right Hand,Rest,275
+1,Right Hand,Left Hand,58
+1,Right Hand,Right Hand,154
+2,Rest,Rest,852
+2,Rest,Left Hand,42
+2,Rest,Right Hand,51
+2,Left Hand,Rest,347
+2,Left Hand,Left Hand,88
+2,Left Hand,Right Hand,40
+2,Right Hand,Rest,347
+2,Right Hand,Left Hand,42
+2,Right Hand,Right Hand,81
+3,Rest,Rest,749
+3,Rest,Left Hand,137
+3,Rest,Right Hand,59
+3,Left Hand,Rest,247
+3,Left Hand,Left Hand,192
+3,Left Hand,Right Hand,38
+3,Right Hand,Rest,225
+3,Right Hand,Left Hand,122
+3,Right Hand,Right Hand,121
+4,Rest,Rest,815
+4,Rest,Left Hand,41
+4,Rest,Right Hand,89
+4,Left Hand,Rest,312
+4,Left Hand,Left Hand,68
+4,Left Hand,Right Hand,96
+4,Right Hand,Rest,288
+4,Right Hand,Left Hand,41
+4,Right Hand,Right Hand,140
+5,Rest,Rest,809
+5,Rest,Left Hand,90
+5,Rest,Right Hand,46
+5,Left Hand,Rest,308
+5,Left Hand,Left Hand,100
+5,Left Hand,Right Hand,69
+5,Right Hand,Rest,282
+5,Right Hand,Left Hand,56
+5,Right Hand,Right Hand,130
