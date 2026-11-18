@@ -1,0 +1,48 @@
+{
+  "recipe": "legacy",
+  "normalization": "global",
+  "eligible_subjects": 106,
+  "total_tested_epochs_out_of_fold": 9535,
+  "n_folds": 5,
+  "accuracy": 0.5371788148925013,
+  "balanced_accuracy": 0.4580062042916295,
+  "macro_f1": 0.45925479790759066,
+  "majority_baseline_accuracy": 0.5000524383848978,
+  "per_class_recall": {
+    "Rest": 0.7751677852348994,
+    "Left Hand": 0.2677754677754678,
+    "Right Hand": 0.3310753598645216
+  },
+  "confusion_matrix_rows_true": [
+    [
+      3696,
+      468,
+      604
+    ],
+    [
+      1312,
+      644,
+      449
+    ],
+    [
+      1246,
+      334,
+      782
+    ]
+  ],
+  "mean_subject_accuracy": 0.5371994080651129,
+  "median_subject_accuracy": 0.5222222222222223,
+  "gate_at_validation_selected_threshold": {
+    "threshold": 0.6,
+    "accepted_rate": 0.24467750393287888,
+    "accepted_accuracy": 0.7325332190312902,
+    "movement_command_rate": 0.061772417409543784,
+    "correct_command_rate": 0.03597273203985317,
+    "wrong_command_rate": 0.025799685369690614,
+    "command_precision": 0.5823429541595926,
+    "false_movement_on_true_rest_rate": 0.02936241610738255,
+    "threshold_source": "median of per-fold validation-selected thresholds"
+  },
+  "cv_protocol": "StratifiedGroupKFold(shuffle, seed=42), grouped by subject; validation subjects only used inside training folds",
+  "created": "2026-11-16T15:28:52"
+}

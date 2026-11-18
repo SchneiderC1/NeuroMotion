@@ -1,0 +1,12 @@
+,"A: CV, unseen subjects (out-of-fold)","A: deployment model, demo subjects","B: all-subject model, held-out best-subject runs"
+n_windows,9535.0,540.0,300.0
+accuracy,0.571,0.609,0.84
+majority_baseline_accuracy,0.5,0.5,0.5
+balanced_accuracy,0.574,0.593,0.842
+macro_precision,0.56,0.583,0.828
+macro_recall,0.574,0.593,0.842
+macro_f1,0.557,0.586,0.83
+cohen_kappa,0.347,0.388,0.749
+roc_auc_macro_ovr,0.767,0.784,0.962
+log_loss,0.905,0.846,0.47
+ece,0.02,0.043,0.138
